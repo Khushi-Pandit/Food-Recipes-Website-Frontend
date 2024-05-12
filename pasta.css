@@ -1,0 +1,175 @@
+/* *{
+    margin: 40px;
+} */
+
+#page {
+    /* border: 9px solid #6a850d; */
+    margin-top: 40px;
+    margin-left: 50px;
+    /* margin-right: 90px; */
+}
+
+.ingrediants {
+    font-size: 25px;
+    color: black;
+    font-weight: 400;
+}
+
+#image {
+    width: 1470px;
+    height: 580px;
+    background-color: pink;
+    background-image: url("/pastA.jpg");
+    background-size: cover;
+}
+
+/* forwarded */
+#weblogo {
+    height: 150px;
+    /*this size 150 is enough for weblogo*/
+    padding-left: 100px;
+}
+
+#webname {
+    font-size: 50px;
+    margin-top: 10px;
+    font-family: 'Audrey';
+    /* padding-right: 150px; */
+    padding-top: 35px;
+    padding-left: 30px;
+}
+
+.webinami {
+    display: inline;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+#firstnavbar {
+    height: 150px;
+    margin-left: 100px;
+    display: flex;
+    /* display: inline; */
+}
+
+@font-face {
+    font-family: 'Audrey';
+    src: url('fonts/Audrey-Regular.woff') format('woff'),
+        url('fonts/Audrey-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+#webname {
+    font-family: 'Audrey', sans-serif;
+    color: rgb(171, 19, 19);
+    font-weight: 700;
+}
+
+#inlinediv {
+    display: inline;
+}
+
+#mainnavbar {
+    padding-left: 30px;
+    height: 20px;
+    /* text-align: center; */
+    display: grid;
+    place-items: center;
+    display: inline;
+}
+
+.centered {
+    /* width: 50%;
+    margin: 0 auto; */
+    margin-left: 200px;
+    padding-top: 10px;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+
+.nav {
+    font-size: 20px;
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.line {
+    display: inline;
+    font-size: 25px;
+    color: blue;
+    padding-left: 10px;
+}
+
+.footnav {
+    text-decoration: none;
+}
+
+.last {
+    background-color: antiquewhite;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    display: flex;
+    gap: 88px;
+    margin-top: 40px;
+}
+
+.in {
+    display: inline-block;
+    background-color: pink;
+    font-size: 40px;
+}
+
+.timepass {
+    background-color: rgb(234, 247, 224);
+    font-size: 30px;
+    margin-top: 10px;
+    width: fit-content;
+    padding-left: 10px;
+}
+
+.imgi {
+    /* background-color: white; */
+    padding-top: 50px;
+    padding-left: 80px;
+    text-align: start;
+    font-size: 100px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #000,
+        6px 6px 6px rgb(20, 93, 7);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.pastaBackground {
+    /* background-color: white; */
+    padding-top: 50px;
+    padding-left: 80px;
+    text-align: start;
+    font-size: 100px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #000,
+        6px 6px 6px rgb(20, 93, 7);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    font-size: 35px;
+}
+
+.tag {
+    color: rgb(22, 129, 61);
+    display: inline-block;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.timepass {
+    border-right: 10px solid rgb(9, 124, 49);
+    border-bottom: 7px solid rgb(9, 124, 49);
+    box-shadow: 0 2px 8px 2px rgb(3, 76, 20);
+    border-radius: 10px;
+}
